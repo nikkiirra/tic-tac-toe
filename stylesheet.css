@@ -1,3 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 h1 {
   font-family: 'Pacifico', cursive;
+  display: flex;
 }
+
+.board {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(177, 144, 0);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.cell {
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.cell:nth-child(3n) {
+  border-right: none;
+}
+.cell:nth-child(n+7) {
+  border-bottom: none;
+}
+
