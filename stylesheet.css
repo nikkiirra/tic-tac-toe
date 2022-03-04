@@ -1,9 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
 html, body {
   height: 100%;
 }
 
 body {
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,10 +18,24 @@ body {
 
 }
 h1 {
+  margin-bottom: 20px;
   font-family: 'Pacifico', cursive;
   display: flex;
+  text-align: center;
+  color: #27AAFF;
 }
 
+h1 span {
+  color: #F24E1E;
+
+}
+
+
+
+
+
+
+/* 
 .board {
   height: 300px;
   width: 300px;
@@ -42,5 +62,5 @@ h1 {
 
 .cell.highlight {
   background-color: #006bb3 (143, 143, 5, 0.973);
-}
+} */
 
