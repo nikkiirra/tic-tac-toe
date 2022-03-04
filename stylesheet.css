@@ -5,22 +5,33 @@
 
 }
 
-html, body {
+/* html, body {
   height: 100%;
-}
+} */
 
 body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+
+
   font-family: 'Pacifico', cursive;
 
 }
+
+.container {
+  background: #C5C1C1;
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 25px;
+
+}
+
+
 h1 {
   margin-bottom: 20px;
   font-family: 'Pacifico', cursive;
-  display: flex;
   text-align: center;
   color: #27AAFF;
 }
