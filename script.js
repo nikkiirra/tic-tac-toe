@@ -3,6 +3,7 @@
  const cellsDiv = document.querySelectorAll('.cell');
  
  
+ 
  console.log(cellsDiv)
  
 
