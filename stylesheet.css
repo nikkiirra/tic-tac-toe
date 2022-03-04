@@ -41,6 +41,22 @@ h1 span {
 
 }
 
+.status-action {
+  margin-top: 25px;
+  font-size: 25px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.restart {
+  cursor: pointer;
+}
+
+.restart:hover {
+  color: #F24E1E;
+}
+
 
 
 
