@@ -31,11 +31,11 @@ h1 {
   margin-bottom: 20px;
   font-family: 'Pacifico', cursive;
   text-align: center;
-  color: #27AAFF;
+  color: #474243;
 }
 
 h1 span {
-  color: #F24E1E;
+  color: #806c71;
 
 }
 
@@ -45,6 +45,8 @@ h1 span {
 
   display: flex;
   justify-content: space-around;
+
+  color: #474243;;
 }
 
 .restart {
@@ -52,7 +54,7 @@ h1 span {
 }
 
 .restart:hover {
-  color: #F24E1E;
+  color: #a1898f;
 }
 
 .board {
