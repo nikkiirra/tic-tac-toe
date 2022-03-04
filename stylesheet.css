@@ -20,8 +20,6 @@ body {
 
 .container {
   background: #C5C1C1;
-  width: 500px;
-  height: 500px;
   margin: 50px;
   padding: 50px;
   border-radius: 25px;
@@ -57,6 +55,21 @@ h1 span {
   color: #F24E1E;
 }
 
+.board {
+  background: #a1898f;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin-top: 50px;
+}
+
+.cell {
+  height: 200px;
+  width: 200px;
+  background: #C5C1C1
+}
+
 
 
 
@@ -67,9 +80,7 @@ h1 span {
   height: 300px;
   width: 300px;
   background-color: rgb(255, 255, 255);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  
 }
 
 .cell {
